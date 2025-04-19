@@ -67,7 +67,8 @@ The app uses a **Logistic Regression** model trained on the Titanic dataset (`tr
 
 ## 📸 UI Preview
 
-> *(Add a screenshot here of your app UI for better visuals)*
+> <img src="{{ url_for('static', filename='preview.png') }}" alt="UI Preview" style="max-width: 100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+
 
 ---
 
