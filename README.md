@@ -25,7 +25,7 @@ titanic-survival-prediction/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/titanic-survival-prediction.git
+git clone https://github.com/mesumitsingh/titanic-survival-prediction.git
 cd titanic-survival-prediction
 ```
 
@@ -73,8 +73,8 @@ The app uses a **Logistic Regression** model trained on the Titanic dataset (`tr
 
 ## 🌐 Use It Now
 
-Visit the live app here: [Your Public URL]  
-> *(Replace with your actual public deployment URL once live)*
+Visit the live app here: [Titanic Survival Prediction](https://titanic-survival-prediction-e705.onrender.com)
+> https://titanic-survival-prediction-e705.onrender.com
 
 ---
 
