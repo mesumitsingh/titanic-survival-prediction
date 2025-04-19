@@ -20,7 +20,7 @@ titanic-survival-prediction/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/titanic-survival-prediction.git
+git clone https://github.com/mesumitsingh/titanic-survival-prediction.git
 cd titanic-survival-prediction
 ```
 
