@@ -1,37 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Titanic Survival Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Titanic Survival Prediction</h1>
-    <form action="/predict" method="post">
-        <label>Gender (0 = Female, 1 = Male):</label><br>
-        <input type="number" name="gender" step="any" required><br><br>
+    <div class="container">
+        <h1>Titanic Survival Prediction 🚢</h1>
+        <form action="/predict" method="post">
+            <label>Gender (0 = Female, 1 = Male):</label>
+            <input type="number" name="gender" step="any" required>
 
-        <label>Passenger Class (1, 2, or 3):</label><br>
-        <input type="number" name="pclass" required><br><br>
+            <label>Passenger Class (1, 2, or 3):</label>
+            <input type="number" name="pclass" required>
 
-        <label>Age:</label><br>
-        <input type="number" name="age" step="any" required><br><br>
+            <label>Age:</label>
+            <input type="number" name="age" step="any" required>
 
-        <label>Siblings/Spouses Aboard:</label><br>
-        <input type="number" name="sibsp" required><br><br>
+            <label>Siblings/Spouses Aboard:</label>
+            <input type="number" name="sibsp" required>
 
-        <label>Parents/Children Aboard:</label><br>
-        <input type="number" name="parch" required><br><br>
+            <label>Parents/Children Aboard:</label>
+            <input type="number" name="parch" required>
 
-        <label>Fare:</label><br>
-        <input type="number" name="fare" step="any" required><br><br>
+            <label>Fare:</label>
+            <input type="number" name="fare" step="any" required>
 
-        <label>Embarked (0 = C, 1 = Q, 2 = S):</label><br>
-        <input type="number" name="embarked" required><br><br>
+            <label>Embarked (0 = C, 1 = Q, 2 = S):</label>
+            <input type="number" name="embarked" required>
 
-        <input type="submit" value="Predict">
-    </form>
+            <input type="submit" value="Predict">
+        </form>
 
-    {% if prediction_text %}
-        <h2>{{ prediction_text }}</h2>
-    {% endif %}
+        {% if prediction_text %}
+            <div class="result">
+                <h2>{{ prediction_text }}</h2>
+            </div>
+        {% endif %}
+    </div>
 </body>
 </html>
