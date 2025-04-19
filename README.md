@@ -42,20 +42,8 @@ pip install -r requirements.txt
 python app.py
 ```
 
-The app will run at: [http://localhost:5000](http://localhost:5000)
+The app will run at: []()
 
-## 🌐 Optional: Expose App Using ngrok
-
-1. [Download ngrok](https://ngrok.com/download) or install via Chocolatey:
-   ```bash
-   choco install ngrok
-   ```
-2. Run ngrok (after starting the Flask app):
-   ```bash
-   ngrok http 5000
-   ```
-
-You'll get a public URL like `https://abcd1234.ngrok.io` to share your app!
 
 ## 📥 Inputs Required
 
